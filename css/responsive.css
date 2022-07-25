@@ -1,0 +1,13 @@
+@media all and (max-width: 992px){
+    .section_title .title { 
+        font-size: 45px; 
+    }
+    .about_details .section_title .title { 
+        text-align: center;
+    }
+}
+@media all and (max-width: 767px){
+    .section_title .title { 
+        font-size: 35px; 
+    } 
+}

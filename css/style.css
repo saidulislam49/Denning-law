@@ -1,0 +1,644 @@
+/******* Table of contents ********* 
+
+1. Header
+2. Banner
+3. Popular Course
+4. About Section
+5. Team
+6. Footer
+
+*/
+
+/* 
+font-family: 'Poppins', sans-serif; 
+font-family: 'Hind', sans-serif;
+
+*/
+
+/* moduls */
+
+.section_title{
+
+}
+.section_title .title{ 
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 40px; 
+    font-weight: 700;
+    color: #2C2C31;
+}
+/* header start */
+.custom_header .search_bar.input-group{
+    width: auto;
+}
+.custom_header .logo{}
+.custom_header .custom_menu{
+    margin-right: 30px;
+}
+.custom_header .custom_menu li{}
+.custom_header .custom_menu li a{
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #343535;
+    text-transform: capitalize;
+    line-height: 25.87px;
+    padding: 10px;
+} 
+.search_Cart_Login {
+	display: flex;
+}
+.search_Cart_Login .cart .cart_icon {
+	color: #252A71;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	background-color: #F1F6FF;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin: 0 7.5px;
+}
+.search_Cart_Login .login_registration {
+	color: #ffffff;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+	text-decoration: none; 
+	height: 50px;
+	background-color: #252A71;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin: 0 7.5px;
+    padding: 0 20px;
+}
+.custom_header .search_bar button { 
+	border: none;
+	color: #193170;
+	width: 50px;
+	height: 50px;
+	background: #F1F6FF;
+	border-radius: 50% !important;
+    margin: 0px 7.5px;
+}
+.custom_header .search_bar input{
+    background-color: transparent;
+    border: none;
+}
+.custom_header .search_bar button:focus,
+.custom_header .search_bar input:focus{
+    box-shadow: unset;
+}
+.custom_header .search_bar input::placeholder{
+    color: #898989;
+    font-size: 14px;
+    line-height: 79px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: unset;
+}
+/* header end */
+
+/* Banner start */
+.banner{
+    padding: 150px 0 150px;
+}
+.banner .banner_left{}
+.banner .banner_left .banner_title{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 60px;
+    color: #2C2C31;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.banner .banner_left .banner_title span{
+    color: #f3811f;
+}
+.banner .banner_left .all_course_btn{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 66px;
+    text-decoration: none;
+    min-width: 226px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 92px;
+    background: #252A71;
+    transition: all .2s ease-in-out;
+}
+.banner .banner_left .all_course_btn:hover{
+    background: #3E48CA;
+    transform: translateY(-2px) scale(1.02);
+}
+.banner .banner_left .all_course_btn i{
+    margin-left: 8px;
+}
+.banner .banner_right{
+    position: relative;
+    min-height: 300px;
+}
+.banner .banner_right img {
+	position: absolute; 
+	top: -30%;
+	z-index: -1;
+}
+/* Banner end */
+
+/* Popular Course start*/
+.popular_course{
+    padding: 60px 0;   
+}
+.courses{
+    margin-top: 60px;
+}
+.courses .single_course { 
+	border-radius: 10px;
+	margin-bottom: 30px;
+	margin-left: 6px;
+	margin-right: 6px;
+    transition: all .4s ease-in-out;
+}
+.courses .single_course:hover{ 
+    box-shadow: 0 5px 5px -2px rgba(0,0,0,.3);
+    transform: translateY(-5px);
+}
+.courses .single_course .course_image{
+    background-color: #d3e6fc;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    overflow: hidden; 
+}
+.courses .single_course .course_image img{
+    width: 100%;
+}
+.courses .single_course .course_description{
+    border: 1px solid #EAE9E9;
+    border-radius: 0px 0px 10px 10px;
+}
+.courses .single_course .course_description .course_name{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #2C2C31;
+    padding: 15px;
+    text-align: center;
+}
+.courses .single_course .course_description .course_name a{
+    text-decoration: none;
+    color: #193170;
+}
+.courses .single_course .course_description .price_and_viewMore{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid #EAE9E9;
+}
+.courses .single_course .course_description .price_and_viewMore .price{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px; 
+    font-weight: 500;
+    color: #252A71;
+    margin: 0;
+} 
+.courses .single_course .course_description .price_and_viewMore .viewMore{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
+    color: #252A71;
+    text-decoration: none;
+} 
+.courses .single_course .course_description .price_and_viewMore .viewMore i{
+    margin-left: 5px;
+}
+/* Popular Course end*/
+ 
+/* our courses start*/
+.our_courses{
+    background: #F6F7F9;
+    padding: 40px 0;
+}
+.our_courses .all_courses{ 
+    margin-top: 30px;
+}
+.our_courses .all_courses .single_course{ 
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all .4s ease-in-out;
+}
+.our_courses .all_courses .single_course:hover {
+	box-shadow: 0 5px 5px -2px rgba(0,0,0,.3);
+	transform: translateY(-5px);
+}
+.our_courses .all_courses .single_course .course_image {
+	width: 100px;
+	height: 100px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 30px;
+}
+.our_courses .all_courses .single_course .course_image.bg_1{
+    background: #00A47633;
+}
+.our_courses .all_courses .single_course .course_image.bg_2{
+    background: #FDB82733;
+}
+.our_courses .all_courses .single_course .course_image.bg_3{
+    background: #6810FF33;
+}
+.our_courses .all_courses .single_course .course_image img{ 
+
+}
+.our_courses .all_courses .single_course .course_description{ 
+
+}
+.our_courses .all_courses .single_course .course_description .course_name{ 
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 24px; 
+    font-weight: 600;
+    color: #2C2C31;
+}
+.our_courses .all_courses .single_course .course_description .course_name a{ 
+    text-decoration: none;
+    color: #2C2C31;
+}
+.our_courses .all_courses .single_course .course_description .course_detail p{ 
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    color: #4B6587;
+    line-height: 175%;
+}
+
+/* our courses end*/
+
+/* testimonial start */
+.testimonial{
+    padding: 40px 0;
+}
+.testimonial .testimonial_container {
+	padding-top: 30px;
+}
+.testimonial .testimonial_container .testimonial_item{ 
+    padding-top: 50px;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper{
+    border: 1px solid #EFECF4;
+    margin: 0px 15px;
+    padding: 20px;
+}
+.testimonial_title{
+    display: flex;
+    justify-content: space-between;
+}
+.slider_controlar{
+    display: flex;
+}
+.slider_controlar .prev{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #EDEEEF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;    
+}
+.slider_controlar .next{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #EDEEEF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.slider_controlar .bg_arrw {
+    background: #252A71;
+    color: #ffffff; 
+}
+ 
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_profile{
+    width: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_profile .profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin: auto;
+    overflow: hidden; 
+    transform: translateY(-70%);
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_profile .quote {
+	position: absolute;
+	font-size: 45px;
+	color: #252a71;
+	top: -3%;
+	left: 62%;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .profile_description {
+	text-align: center;
+	border-bottom: 1px solid #EFECF4;
+	padding: 0px 0 20px 0;
+	margin-top: -30px;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .profile_description .name{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #242424;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .profile_description .work{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color:#636E74;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_rating{}
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_rating .rating_icon{
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_rating .rating_icon li{
+    list-style: none;
+    margin: 0 3px;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_rating .rating_icon li i{
+    color: #FAB33F;
+}
+.testimonial .testimonial_container .testimonial_item .item_wraper .guardian_rating .rating_description p{
+    color: #636E74;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+/* testimonial end */
+
+/* newsletter start */
+.newsletter {
+    text-align: center;
+	padding: 30px 0;
+    background: #F6F7F9;
+}
+.newsletter .news_title{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    color: #242424;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+}
+.newsletter .news_subtitle{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    color: #242424;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.newsletter .newsletter_form form {
+	max-width: 564px;
+	margin: auto;
+	position: relative;
+}
+.newsletter .newsletter_form form input {
+	width: 100%;
+	border: 1.5px solid #252A71;
+	border-radius: 32.5px;
+	height: 64px;
+	padding: 0 30px; 
+    color: #252A71;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+}
+.newsletter .newsletter_form form input::placeholder{
+    color: #252A71;
+}
+.newsletter .newsletter_form form input:focus{
+    border-color: #252A71;
+}
+.newsletter .newsletter_form form .news_btn {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%; 
+	color: #FFFFFF;
+	text-transform: capitalize;
+	background: #252A71;
+	text-decoration: none;
+	display: inline-block;
+	padding: 12px 26px;
+	border-radius: 155px;
+	border: 0;
+	position: absolute;
+	top: 50%;
+	right: 1%;
+	transform: translateY(-50%);
+	transition: all .3s ease-in-out;
+}
+.newsletter .newsletter_form form .news_btn:hover {
+	color: #ffffff;
+	background: #3E48CA;
+}
+/* newsletter end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Section start */
+.about_section{}
+.about_section .about_content{
+    background: linear-gradient(#f7fbff, #e8f3ff);
+	border-radius: 15px;
+	margin-bottom: 30px;
+	margin-left: 6px;
+	margin-right: 6px;
+    padding: 50px 30px;
+}
+.about_section .about_content .about_feature{
+    background-color: #d3e6fc;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px 30px;
+}
+.about_section .about_content .about_feature img{
+    width: 100%;
+}
+.about_section .about_content .about_details{
+    margin-left: 20px;
+}
+.about_section .about_content .about_details p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #193170;
+}
+.about_section .about_content .about_details p span{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #193170;
+}
+/* About Section end */
+
+/* Team start */
+.team{
+    padding: 50px 0 100px;
+    background-image: url('../images/shape-2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.team .team_wraper{
+    padding-top: 30px;
+}
+.team .team_wraper .single_team{
+    text-align: center;
+}
+.team .team_wraper .single_team .team_image{ 
+    background-image: url('../images/shape.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+}
+.team .team_wraper .single_team .team_image img{ 
+}
+.team .team_wraper .single_team .course_description{
+    text-align: center;
+}
+.team .team_wraper .single_team .course_description .team_name{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    font-weight: 700; 
+    padding-top: 15px;
+}
+.team .team_wraper .single_team .course_description .team_name a{
+    text-decoration: none;
+    color: #193170;
+}
+.team .team_wraper .single_team .course_description .team_tagline{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #193170;
+    margin-bottom: 24px;
+
+}
+/* Team end */
+
+/* Footer start */
+.footer{
+    padding: 30px 0 20px;  
+    background: #252A71;
+} 
+.footer .footer_top{} 
+.footer .footer_top .contact_info{}
+.footer .footer_top .contact_info ul{
+    list-style: none;
+    padding: 0;
+}
+.footer .footer_top .contact_info ul li{
+    color: #ffffff;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.footer .footer_top .contact_info ul li i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.footer .footer_top .item_title{}
+.footer .footer_top .item_title h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 76px;
+}
+.footer .footer_top .footer_menu{}
+.footer .footer_top .footer_menu ul{
+    list-style: none;
+    padding: 0;
+}
+.footer .footer_top .footer_menu ul li{
+    margin-bottom: 5px;
+}
+.footer .footer_top .footer_menu ul li a{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 21px;
+}
+.footer .footer_bottom{
+    padding-top: 20px;
+    border-top: 1px solid #B8B6DF80;
+}
+.footer .footer_bottom p{
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff; 
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.footer .footer_bottom p a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+/* Footer end */
