@@ -153,7 +153,7 @@ font-family: 'Hind', sans-serif;
 
 /* Popular Course start*/
 .popular_course{
-    padding: 60px 0;   
+    padding: 40px 0;   
 }
 .courses{
     margin-top: 60px;
@@ -330,7 +330,7 @@ font-family: 'Hind', sans-serif;
     cursor: pointer;
 }
 .slider_controlar .bg_arrw {
-    background: #252A71;
+    background: #252A71 !important;
     color: #ffffff; 
 }
  
@@ -473,12 +473,293 @@ font-family: 'Hind', sans-serif;
 }
 /* newsletter end */
 
+/* about start */
+.about{
+    padding: 40px 0;
+    background: #f6f7f9;
+}
+.about_content{
+    padding: 30px 0;
+}
+.about_content .about_image {
+	margin-right: 50px;
+}
+.about_content .about_image img{
+    width: 100%;
+}
+.about_content .about_description{}
+.about_content .about_description .sub_title{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #252A71;
+    margin-bottom: 25px;
+}
+.about_content .about_description .title{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #2C2C31;
+    margin-bottom: 20px;
+}
+.about_content .about_description p{
+    color: #4B6587;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+}
+.about_content .about_description .features{}
+.about_content .about_description .features ul{
+    padding: 0;
+    list-style: none;
+    max-width: 500px;
+}
+.about_content .about_description .features ul li span{
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 34px;
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+    display: block;
+}
+.about_content .about_description .viewMore{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    color: #ffffff; 
+    text-decoration: none;
+    min-width: 226px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 92px;
+    background: #252A71;
+    padding: 15px 20px;
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+}
+.about_content .about_description .viewMore:hover{
+    background: #3E48CA;
+    transform: translateY(-2px) scale(1.02);
+}
 
+.professional_trainer{
+    padding: 40px 0 0;
+} 
+.professional_trainer .trainer_slider{
+    padding-top: 30px; 
+} 
+.single_trainer {
+	border-radius: 14px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	transition: all .4s ease-in-out;
+    background: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.single_trainer .trainer_image img{
+    width: 100%;
+}
+.single_trainer .trainer_description{
+    padding: 20px 15px;
+}
+.single_trainer .trainer_description .trainer_name{
+    color: #343535;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+}
+.single_trainer .trainer_description .trainer_name a{
+    text-decoration: none;
+    color: #343535;
+}
+.single_trainer .trainer_description .trainer_education{
+    color: #4B6587;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+}
+.slider_controlar .previous{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #EDEEEF;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;    
+}
+.slider_controlar .next_btn{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #EDEEEF;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.professional_title {
+	display: flex;
+	justify-content: space-between;
+}
+/* about end */
 
+/* course list start */
+.course_list{
+    background: #F6F7F9;
+}
+.course_list .single_course{
+    background: #ffffff;
+}
+.course_list .course_list_title form input{
+     border: 1px solid #6B7AA14D;
+     border-radius: 30px;
+     padding: 8px 20px;
+     color: #343535;
+     font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 305px;
+}
+.course_list .course_list_title{
+    display: flex;
+    justify-content: space-between;
+}
+.course_list .courses{
+    margin-top: 40px;
+}
+/* course list end */
 
+/* professional trainer start */
+.professional_trainer{
+    background: #F6F7F9;
 
+}
+.professional_trainer .all_trainer{
+    margin-top: 30px;
+}
+.professional_trainer .all_trainer .single_trainer{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.pagination{
+    padding-bottom: 30px; 
+}
+.pagination ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	margin: auto;
+}
+.pagination ul li{ 
+}
+.pagination .previous-page{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #EDEEEF;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;    
+}
+.pagination .next-page{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #EDEEEF;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.pagination .bg_arrw {
+    background: #252A71 !important;
+    color: #ffffff; 
+}
+/* professional trainer end */
 
+/* about trainer start */
+.about_trainer{
+    background: #F6F7F9;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+.about_trainer .trainer_details{}
+.about_trainer .trainer_description{}
+.about_trainer .trainer_description .trainer_name a{
+    text-decoration: none;
+    color: #2C2C31;
 
+}
+.about_trainer .trainer_description .trainer_name{
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    margin: 24px 0 20px;
+}
+.about_trainer .trainer_description .trainer_education{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2C2C31;
+}
+.about_trainer .trainer_description .trainer_designation{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2C2C31;
+
+}
+.about_trainer .single_trainer{
+    border-radius: unset;
+    margin: 0;
+}
+/* about trainer end */
+
+/* contact page start */
+.contact{}
+.contact_area{}
+.contact_area .form_area{}
+.contact_area .form_area .title{}
+.contact_area .form_area p{}
+.contact_area .form_area form{}
+.contact_area .contract_info{}
+/* contact page end */
 
 
 
@@ -572,6 +853,12 @@ font-family: 'Hind', sans-serif;
 
 }
 /* Team end */
+
+
+
+
+
+
 
 /* Footer start */
 .footer{
