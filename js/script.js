@@ -109,3 +109,25 @@ $('.next-page').click(function(){
   $(this).addClass('bg_arrw');
   $('.previous-page').removeClass('bg_arrw');
 })
+
+// course details tabs initial
+$(document).ready(function(){
+  $('#myTab').jqTabs({
+      // direction: 'horizontal',
+      mainWrapperClass: 'course_details_wrapper',
+      tabClass: 'course_title_tab',
+      tabContentClass: 'tab_content'
+  });
+  
+});
+
+// Dashboard tab initial
+$(document).ready(function(){
+  $('#myTab').jqTabs({
+      // direction: 'horizontal',
+      mainWrapperClass: 'dashboard_wrapper',
+      tabClass: 'dashboard_title_tab',
+      tabContentClass: 'tab_content'
+  });
+  
+});

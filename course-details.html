@@ -64,54 +64,68 @@
 
           </div>
         </div>
-      </nav>
+    </nav>
 
  
-      <!-- contact page start -->
-      <section class="contact">
+
+      <!-- about trainer start -->
+      <section class="course_details">
         <div class="container">
-            <div class="section_title">
-                <h3 class="title">যোগাযোগ</h3> 
-            </div>
-
-            <div class="contact_area">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form_area">
-                            <h3 class="title">আমাদেরকে লিখুন</h3>
-                            <p>আমাদের কোর্স গুলো বা অন্যান্য বিষয়ে আরো <br> বিস্তারিত জানতে অথবা যে কোন প্রশ্ন করুন</p>
-
-                            <form action="">
-                                <input type="text" placeholder="আপনার নাম">
-                                <input type="email" placeholder="আপনার ই-মেইল">
-                                <input type="text" placeholder="বিষয়">
-                                <textarea name="" id="" cols="30" rows="3" placeholder="আপনার কথা"></textarea>
-                                <button>পাঠিয়ে দিন</button>
-                            </form>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="section_title ">
+                        <h3 class="title">ক্রিমিনাল ট্রায়ালঃ ল এন্ড প্র্যাকটিস</h3> 
+                    </div>
+                    <div class="course_details_wrapper" id="myTab">
+                        <div class="course_menu">
+                            <ul class="jq-tab-menu">
+                                <li class="course_title_tab active" data-tab="1">কোর্স ওভারিভিউ</li>
+                                <li class="course_title_tab" data-tab="2">কারিক্যুলাম</li>
+                                <li class="course_title_tab" data-tab="3">ট্রেইনার</li>
+                                <li class="course_title_tab" data-tab="3">রিভিউ</li>
+                            </ul>
+                        </div>
+                        <div class="course_content">
+                              <div class="tab_content active" data-tab="1">
+                                <p>একটি ফৌজদারি মামলা দায়ের, তদন্ত, ট্রায়ালে উহার সঠিকতা যাচাই, সাক্ষ্য এবং এই সংক্রান্ত খুটিনাটি বিষয়ে হাতেকলমে শিখতে আগ্রহী?
+                                    জেরা ও জবানবন্দির কৌশল শিখে নিজেকে একজন দক্ষ ট্রায়াল আইনজীবী হিসেবে গড়ে তুলতে চান?
+                                    তাহলে এই লেকচার সিরিজ আপনার জন্য। </p>
+                              </div>
+                              <div class="tab_content" data-tab="2">
+                                
+                                Tab 2 content here
+      
+                              </div>
+                              <div class="tab_content" data-tab="3">
+                                Tab 3 content here
+                              </div>
+                              <div class="tab_content" data-tab="4">
+                                Tab 4 content here
+                              </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="contract_info">
-                            <div class="info_item">
-                                <div class="item_icon bg_1">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <h4 class="info_title">আমাদের অফিস</h4>
-                                <p class="info_description">প্রিতম জামান টাওয়ার (লেভেল ১২) ৩৭/২ <br> পুরানা পল্টন, ঢাকা ১০০০</p>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="course_intro"> 
+                        <div class="intro_video">
+                            <img src="images/introvideo.png" alt="">
+                            <div class="overlay">
+                                <a class="venobox vbox-item" data-autoplay="true" data-vbtype="video" href="https://youtu.be/8trao5wH1nE">
+                                    <img src="images/play-circle.png" alt="">
+                                </a>
                             </div>
-                            <div class="info_item">
-                                <div class="item_icon bg_2">
-                                    <i class="fa-regular fa-envelope"></i>
-                                </div>
-                                <h4 class="info_title">ই-মেইল</h4>
-                                <p class="info_description">denning_law@outlook.com</p>
-                            </div>
-                            <div class="info_item">
-                                <div class="item_icon bg_3">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <h4 class="info_title">আমাদেরকে কল করুন</h4>
-                                <p class="info_description">ফোন : 01841538863</p>
+                        </div>
+                        <div class="cart-totals">
+                            <ul>
+                                <li> <span>কোর্স ফি</span> <span>2,220/-</span></li> 
+                                <li> <span>শুরু</span> <span>২৩ জুন, ২০২২</span></li>
+                                <li> <span>এনরোল করেছে :</span><span><b>20</b></span></li>
+                            </ul>
+    
+                            <div class="dubble_btn">
+                                <a href="" class="viewCart_btn ">কার্ট দেখুন</a>
+                                <a href="" class="share_btn"> কোর্সটি শেয়ার করুন  <i class="fa-solid fa-share-nodes"></i></a>
                             </div>
                         </div>
                     </div>
@@ -119,8 +133,9 @@
             </div>
         </div>
       </section>
-      <!-- contact page end -->
-   
+      <!-- about trainer end -->
+
+
 
        
       <!-- footer start -->
@@ -190,6 +205,8 @@
     <!-- slick slider -->
     <script src="slick/slick.min.js"></script>
     <!-- main script file -->
+    <!-- jquery tabs js -->
+    <script src="js/jquery.tabs.min.js"></script>
     <script src="js/script.js"></script>
    
   </body>

@@ -64,63 +64,96 @@
 
           </div>
         </div>
-      </nav>
+    </nav>
 
  
-      <!-- contact page start -->
-      <section class="contact">
+
+      <!-- about trainer start -->
+      <section class="cart_section"> 
         <div class="container">
-            <div class="section_title">
-                <h3 class="title">যোগাযোগ</h3> 
-            </div>
-
-            <div class="contact_area">
+            <div class="section_title text-center">
+                <h3 class="title">কার্ট</h3>
+            </div> 
+            <div class="cart_area">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="form_area">
-                            <h3 class="title">আমাদেরকে লিখুন</h3>
-                            <p>আমাদের কোর্স গুলো বা অন্যান্য বিষয়ে আরো <br> বিস্তারিত জানতে অথবা যে কোন প্রশ্ন করুন</p>
-
-                            <form action="">
-                                <input type="text" placeholder="আপনার নাম">
-                                <input type="email" placeholder="আপনার ই-মেইল">
-                                <input type="text" placeholder="বিষয়">
-                                <textarea name="" id="" cols="30" rows="3" placeholder="আপনার কথা"></textarea>
-                                <button>পাঠিয়ে দিন</button>
-                            </form>
-                        </div>
+                    <div class="col-lg-8">
+                        <div class="cart_details">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="course_image">
+                                        <img src="images/cart-product-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="cart_wraps">  
+                                        <div class="cart_table table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr> 
+                                                        <th scope="col">কোর্স</th>
+                                                        <th scope="col">ফি</th>
+                                                        <th scope="col">পরিমাণ</th>
+                                                        <th scope="col">মোট	</th> 
+                                                    </tr>
+                                                </thead> 
+                                                <tbody>
+                                                    <tr>  
+                                                        <td class="product_name">
+                                                            <a href="#">ক্রিমিনাল ট্রায়ালঃ ল এন্ড প্র্যাকটিস</a>
+                                                        </td>
+                            
+                                                        <td class="product_price">
+                                                            <span class="unit_amount">৩৫০০/-</span>
+                                                        </td> 
+                            
+                                                        <td class="cart-product-quantity" width="130px">
+                                                            <div class="input-quantity">
+                                                                 <input type="text" value="১">
+                                                            </div>
+                                                        </td>
+                    
+                                                        <td>
+                                                            <span class="subtotal_amount">৩৫০০/-</span>
+                                                        </td> 
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>  
+                                        <div class="coupon_cart"> 
+                                            <div class="form-group mb-0">
+                                                <form action="#" method="get">
+                                                    <input type="text" class="form-control" placeholder="কুপন কোড">
+                    
+                                                    <button type="submit" class="default-btn">কুপন যোগ করুন</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
                     </div>
-                    <div class="col-md-6">
-                        <div class="contract_info">
-                            <div class="info_item">
-                                <div class="item_icon bg_1">
-                                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="col-lg-4">
+                        <div class="total_amount"> 
+                            <div class="cart-totals">
+                                <h3 class="cart_title">মোট দাম হয়েছে</h3>
+                                <ul>
+                                    <li> <span>সাবটোটাল</span> <span>2,220/-</span></li>  
+                                    <li> <span>টোটাল</span><span><b>2220/-</b></span></li>
+                                </ul>
+        
+                                <div class="button">
+                                    <a href="" class="Cart_btn ">কার্ট দেখুন</a> 
                                 </div>
-                                <h4 class="info_title">আমাদের অফিস</h4>
-                                <p class="info_description">প্রিতম জামান টাওয়ার (লেভেল ১২) ৩৭/২ <br> পুরানা পল্টন, ঢাকা ১০০০</p>
-                            </div>
-                            <div class="info_item">
-                                <div class="item_icon bg_2">
-                                    <i class="fa-regular fa-envelope"></i>
-                                </div>
-                                <h4 class="info_title">ই-মেইল</h4>
-                                <p class="info_description">denning_law@outlook.com</p>
-                            </div>
-                            <div class="info_item">
-                                <div class="item_icon bg_3">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <h4 class="info_title">আমাদেরকে কল করুন</h4>
-                                <p class="info_description">ফোন : 01841538863</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
-      <!-- contact page end -->
-   
+    </section>
+      <!-- about trainer end -->
+
 
        
       <!-- footer start -->
@@ -190,6 +223,8 @@
     <!-- slick slider -->
     <script src="slick/slick.min.js"></script>
     <!-- main script file -->
+    <!-- jquery tabs js -->
+    <script src="js/jquery.tabs.min.js"></script>
     <script src="js/script.js"></script>
    
   </body>

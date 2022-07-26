@@ -64,63 +64,92 @@
 
           </div>
         </div>
-      </nav>
+    </nav>
 
- 
-      <!-- contact page start -->
-      <section class="contact">
+   
+
+    <!-- user dashboard start -->
+    <div class="dashboard_wrapper" id="myTab">
         <div class="container">
-            <div class="section_title">
-                <h3 class="title">যোগাযোগ</h3> 
-            </div>
-
-            <div class="contact_area">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form_area">
-                            <h3 class="title">আমাদেরকে লিখুন</h3>
-                            <p>আমাদের কোর্স গুলো বা অন্যান্য বিষয়ে আরো <br> বিস্তারিত জানতে অথবা যে কোন প্রশ্ন করুন</p>
-
-                            <form action="">
-                                <input type="text" placeholder="আপনার নাম">
-                                <input type="email" placeholder="আপনার ই-মেইল">
-                                <input type="text" placeholder="বিষয়">
-                                <textarea name="" id="" cols="30" rows="3" placeholder="আপনার কথা"></textarea>
-                                <button>পাঠিয়ে দিন</button>
-                            </form>
-                        </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="sidber_menu">
+                        <ul class="jq-tab-menu">
+                            <li class="dashboard_title_tab active" data-tab="1">dashboard</li>
+                            <li class="dashboard_title_tab" data-tab="2">my orders</li>
+                            <li class="dashboard_title_tab" data-tab="3">manage profile</li>
+                            <li class="dashboard_title_tab" data-tab="3">logout</li>
+                        </ul>
                     </div>
-                    <div class="col-md-6">
-                        <div class="contract_info">
-                            <div class="info_item">
-                                <div class="item_icon bg_1">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <h4 class="info_title">আমাদের অফিস</h4>
-                                <p class="info_description">প্রিতম জামান টাওয়ার (লেভেল ১২) ৩৭/২ <br> পুরানা পল্টন, ঢাকা ১০০০</p>
+                </div>
+                <div class="col-md-9">
+                    <div class="content_wrapper">
+                        <div class="tab_content active" data-tab="1">
+                        <p>Welcome to the dashboard. You will find your account settings, password change, transactions in your dashboard here. <br> Thanks for staying with us
+                            
+                            </p>
+                        </div>
+                        <div class="tab_content" data-tab="2">
+                        
+                            <div class="order_wraps">  
+                                <div class="order_table table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Order Id</th>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Status</th> 
+                                                <th scope="col">Options</th>
+                                            </tr>
+                                        </thead> 
+                                        <tbody>
+                                            <tr>
+                                                <td class="product_id">
+                                                    <a href="#">
+                                                        #10144545
+                                                    </a>
+                                                </td>
+                    
+                                                <td class="order_date">
+                                                    <p>12-05-2022</p>
+                                                </td>
+                    
+                                                <td class="product_price">
+                                                    <span class="unit_amount">2700 TK.</span>
+                                                </td> 
+                                                <td class="order_status" width="130px">
+                                                    <span>pending</span>
+                                                </td> 
+                                                <td class="order_status">
+                                                    <a href="#" onclick="return confirm('Are you sure to remove this item?')" class="remove" style="float: unset;margin-left: 0">
+                                                        <i class="fa-regular fa-trash-can"></i>
+                                                    </a>
+                                                    <a href="order-details.html" class="view_details" style="float: unset;margin-left: 0">
+                                                        <i class="fa-regular fa-eye"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div> 
                             </div>
-                            <div class="info_item">
-                                <div class="item_icon bg_2">
-                                    <i class="fa-regular fa-envelope"></i>
-                                </div>
-                                <h4 class="info_title">ই-মেইল</h4>
-                                <p class="info_description">denning_law@outlook.com</p>
-                            </div>
-                            <div class="info_item">
-                                <div class="item_icon bg_3">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <h4 class="info_title">আমাদেরকে কল করুন</h4>
-                                <p class="info_description">ফোন : 01841538863</p>
-                            </div>
+
+                        </div>
+                        <div class="tab_content" data-tab="3">
+                        Tab 3 content here
+                        </div>
+                        <div class="tab_content" data-tab="4">
+                        Tab 4 content here
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
-      <!-- contact page end -->
-   
+        
+        
+    </div>
+    <!-- user dashboard end -->
 
        
       <!-- footer start -->
@@ -190,6 +219,8 @@
     <!-- slick slider -->
     <script src="slick/slick.min.js"></script>
     <!-- main script file -->
+    <!-- jquery tabs js -->
+    <script src="js/jquery.tabs.min.js"></script>
     <script src="js/script.js"></script>
    
   </body>
