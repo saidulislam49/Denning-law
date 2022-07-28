@@ -16,6 +16,11 @@ font-family: 'Hind', sans-serif;
 */
 
 /* moduls */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .section_title{
 
@@ -1255,6 +1260,172 @@ font-family: 'Hind', sans-serif;
     padding-bottom: 25px; 
 }
 /* cart end */
+
+/* dashboard css start */
+.dashboard_wrapper{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background: #F6F7F9;
+    padding: 30px 0 20px;
+
+}
+.dashboard_wrapper .dashboard_title_tab.active{
+    background: #252A71;
+    color: #FFFFFF;
+} 
+.dashboard_wrapper .dashboard_title_tab.active i.my_course{
+    border: 1px solid #ffffff;
+} 
+.dashboard_wrapper .dashboard_title_tab.active i{ 
+    color: #FFFFFF;
+} 
+.dashboard_wrapper .content_wrapper .tab_content{
+    display: none;
+}
+.dashboard_wrapper .content_wrapper .tab_content.active{
+    display: block;
+} 
+.dashboard_wrapper .user_name{ 
+    background: #252A71;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 0 20px; 
+} 
+.dashboard_wrapper .user_name p{ 
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%; 
+    color: #ffffff;
+    margin: 0;
+} 
+.dashboard_wrapper .sidber_menu{ } 
+.dashboard_wrapper .sidber_menu ul{
+    list-style: none;
+    padding: 0;
+} 
+.dashboard_wrapper .sidber_menu ul li{ 
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 12px 0; 
+    cursor: pointer;
+} 
+.dashboard_wrapper .sidber_menu ul li i{
+    color: #252A71;
+    font-size: 20px;
+    margin: 0 25px;
+} 
+.dashboard_wrapper .sidber_menu ul li i.my_course {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	border: 1px solid #252A71;
+	font-size: 12px; 
+	text-align: center;
+	line-height: 20px;
+} 
+.dashboard_wrapper .content_bg{
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.dashboard_wrapper .content_wrapper .tab_content .dashboard_content p{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #2C2C31;
+}
+.dashboard_wrapper .content_wrapper .tab_content .dashboard_content span{
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+.dashboard_wrapper .content_wrapper .tab_content .order_wraps{}
+.dashboard_wrapper .content_wrapper .tab_content .order_wraps .order_table{}
+.dashboard_wrapper .content_wrapper .tab_content .order_wraps .order_table table{}
+.dashboard_wrapper .content_wrapper .tab_content .order_wraps .order_table table thead tr th{
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+}
+.dashboard_wrapper .content_wrapper .tab_content .order_wraps .order_table table tbody tr td.product_id a,
+.dashboard_wrapper .content_wrapper .tab_content .order_wraps .order_table table tbody tr td{
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-decoration: none;
+}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting{}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form{}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form label{
+    color: #2C2C31;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form input{
+    border: 1px solid #E5E7E9;
+    border-radius: 9px;
+    padding: 12px;font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form input::placeholder{ 
+    color: #CACACA;
+}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form input:focus{
+    box-shadow: unset;
+}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form button {
+	font-family: 'Hind Siliguri';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	background: #252A71;
+	color: #ffffff;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 0;
+	width: 150px;
+	margin: 15px auto 0px;
+    transition: all .2s ease-in-out;
+}
+.dashboard_wrapper .content_wrapper .tab_content .account_setting form button:hover{
+    background: #3E48CA;
+    transform: translateY(-2px) scale(1.02);
+}
+/* dashboard css end */
+
+
+
 
 
 

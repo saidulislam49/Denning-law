@@ -37,11 +37,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav custom_menu ms-auto mb-2 mb-lg-0">
-               <li><a href="">হোম</a></li>
-               <li><a href="">আমাদের সম্পর্কে</a></li> 
-               <li><a href="">আমাদের সব কোর্স</a></li>
-               <li><a href="">জরুরী</a></li>
-               <li><a href="">যোগাযোগ</a></li>
+                <li><a href="index.html">হোম</a></li>
+                <li><a href="about.html">আমাদের সম্পর্কে</a></li> 
+                <li><a href="course-list.html">আমাদের সব কোর্স</a></li>
+                <li><a href="faq.html">জরুরী</a></li>
+                <li><a href="contact.html">যোগাযোগ</a></li>
             </ul>
             <div class="search_Cart_Login">
                 <form class="search_bar input-group"> 
@@ -71,21 +71,33 @@
     <!-- user dashboard start -->
     <div class="dashboard_wrapper" id="myTab">
         <div class="container">
+            <div class="section_title text-center"> 
+                <h3 class="title">ডেশবোর্ড</h3> 
+            </div>
+            <div class="user_name">
+                <p>স্বাগতম শাহাদাত উল্লাহ মিঠু</p>
+            </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3">
                     <div class="sidber_menu">
                         <ul class="jq-tab-menu">
-                            <li class="dashboard_title_tab active" data-tab="1">dashboard</li>
-                            <li class="dashboard_title_tab" data-tab="2">my orders</li>
-                            <li class="dashboard_title_tab" data-tab="3">manage profile</li>
-                            <li class="dashboard_title_tab" data-tab="3">logout</li>
+                            <li class="dashboard_title_tab" data-tab="1"><i class="my_course fa-solid fa-bars"></i> আমার কোর্স সমূহ</li>
+                            <li class="dashboard_title_tab" data-tab="2"><i class="fa-solid fa-bag-shopping"></i>আমার কেনাকাটা</li>
+                            <li class="dashboard_title_tab" data-tab="3"><i class="fa-solid fa-gear"></i>একাউন্ট সেটিংস</li>
+                            <li class="dashboard_title_tab" data-tab="4"> <i class="fa-solid fa-arrow-right-from-bracket"></i>লগ আউট</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9 content_bg">
                     <div class="content_wrapper">
-                        <div class="tab_content active" data-tab="1">
-                        <p>Welcome to the dashboard. You will find your account settings, password change, transactions in your dashboard here. <br> Thanks for staying with us
+                        <div class="tab_content active">
+                            <div class="dashboard_content">
+                                <p>ডেশবোর্ডে আপনাকে স্বাগতম। আপনি আপনার ডেশবোর্ড এ আপনার এনরোল করা কোর্স গুলো দেখতে পাবেন। পাশাপাশি আপনার একাউন্ট সেটিংস, পাসওয়ার্ড চেইঞ্জ, লেনদেন গুলোও এখানে খুজে পাবেন।</p>
+                                <span>আমাদের সাথে থাকার জন্য ধন্যবাদ</span>
+                            </div> 
+                        </div>
+                        <div class="tab_content" data-tab="1">
+                            <p>Welcome to the dashboard. You will find your account settings, password change, transactions in your dashboard here. <br> Thanks for staying with us
                             
                             </p>
                         </div>
@@ -96,11 +108,11 @@
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col">Order Id</th>
-                                                <th scope="col">Date</th>
-                                                <th scope="col">Price</th>
-                                                <th scope="col">Status</th> 
-                                                <th scope="col">Options</th>
+                                                <th scope="col">অর্ডার নাম্বার</th>
+                                                <th scope="col">তারিখ</th>
+                                                <th scope="col">মোট</th>
+                                                <th scope="col">কোর্স</th> 
+                                                <th scope="col">অবস্থা</th>
                                             </tr>
                                         </thead> 
                                         <tbody>
@@ -117,18 +129,13 @@
                     
                                                 <td class="product_price">
                                                     <span class="unit_amount">2700 TK.</span>
-                                                </td> 
+                                                </td>  
+                                                <td class="course_quantity">
+                                                    <span>12</span>
+                                                </td>
                                                 <td class="order_status" width="130px">
                                                     <span>pending</span>
                                                 </td> 
-                                                <td class="order_status">
-                                                    <a href="#" onclick="return confirm('Are you sure to remove this item?')" class="remove" style="float: unset;margin-left: 0">
-                                                        <i class="fa-regular fa-trash-can"></i>
-                                                    </a>
-                                                    <a href="order-details.html" class="view_details" style="float: unset;margin-left: 0">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                    </a>
-                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -137,7 +144,31 @@
 
                         </div>
                         <div class="tab_content" data-tab="3">
-                        Tab 3 content here
+                            <div class="account_setting">
+                                <form action="" class="row">
+                                    <div class="mb-3 col-md-6">
+                                        <label for="name" class="form-label">নাম</label>
+                                        <input type="text" class="form-control" id="name" placeholder="শাহাদাত উল্লাহ মিঠু">
+                                    </div>
+                                    <div class="mb-3 col-md-6">
+                                        <label for="phoneNumber" class="form-label">ফোন নাম্বার</label>
+                                        <input type="text" class="form-control" id="phoneNumber" placeholder="+8801770496249">
+                                    </div>
+                                    <div class="mb-3 col-12">
+                                        <label for="oldPassword" class="form-label">পূরাতন পাসওয়ার্ড (ইমেইল এবং পাসওয়ার্ড পরিবর্তন করার ক্ষেত্রে পুরাতন পাসওয়ার্ডটি দিতে হবে)</label>
+                                        <input type="password" class="form-control" id="oldPassword" >
+                                    </div>
+                                    <div class="mb-3 col-md-6">
+                                        <label for="email" class="form-label">ই-মেইল</label>
+                                        <input type="email" class="form-control" id="email" placeholder="admin@gmail.com">
+                                    </div>
+                                    <div class="mb-3 col-md-6">
+                                        <label for="newPassword" class="form-label">নতুন পাসওয়ার্ড</label>
+                                        <input type="password" class="form-control" id="newPassword" >
+                                    </div>
+                                     <button>আপডেট করুন</button>
+                                </form>
+                            </div>
                         </div>
                         <div class="tab_content" data-tab="4">
                         Tab 4 content here
