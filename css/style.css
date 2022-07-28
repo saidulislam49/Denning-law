@@ -150,9 +150,11 @@ body{
     min-height: 300px;
 }
 .banner .banner_right img {
-	position: absolute; 
-	top: -30%;
+	position: absolute;
+	top: -26%;
+	left: 23%;
 	z-index: -1;
+	width: 70%;
 }
 /* Banner end */
 
@@ -879,9 +881,15 @@ body{
 /* contact page end */
 
 /* faq page start */
-.faq{
-    background: #F6F7F9;
-    min-height: 70vh;
+.faq {
+	background: #F6F7F9; 
+	padding: 30px 0 40px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+.faq_area {
+	margin-top: 30px;
 }
 .faq_area .accordion-item {
 	margin-bottom: 10px;
@@ -1423,103 +1431,7 @@ body{
     transform: translateY(-2px) scale(1.02);
 }
 /* dashboard css end */
-
-
-
-
-
-
-
-/* About Section start */
-.about_section{}
-.about_section .about_content{
-    background: linear-gradient(#f7fbff, #e8f3ff);
-	border-radius: 15px;
-	margin-bottom: 30px;
-	margin-left: 6px;
-	margin-right: 6px;
-    padding: 50px 30px;
-}
-.about_section .about_content .about_feature{
-    background-color: #d3e6fc;
-    border-radius: 15px;
-    text-align: center;
-    padding: 25px 30px;
-}
-.about_section .about_content .about_feature img{
-    width: 100%;
-}
-.about_section .about_content .about_details{
-    margin-left: 20px;
-}
-.about_section .about_content .about_details p{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #193170;
-}
-.about_section .about_content .about_details p span{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: 600;
-    color: #193170;
-}
-/* About Section end */
-
-/* Team start */
-.team{
-    padding: 50px 0 100px;
-    background-image: url('../images/shape-2.png');
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.team .team_wraper{
-    padding-top: 30px;
-}
-.team .team_wraper .single_team{
-    text-align: center;
-}
-.team .team_wraper .single_team .team_image{ 
-    background-image: url('../images/shape.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-
-}
-.team .team_wraper .single_team .team_image img{ 
-}
-.team .team_wraper .single_team .course_description{
-    text-align: center;
-}
-.team .team_wraper .single_team .course_description .team_name{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 19px;
-    line-height: 18px;
-    font-weight: 700; 
-    padding-top: 15px;
-}
-.team .team_wraper .single_team .course_description .team_name a{
-    text-decoration: none;
-    color: #193170;
-}
-.team .team_wraper .single_team .course_description .team_tagline{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 500;
-    color: #193170;
-    margin-bottom: 24px;
-
-}
-/* Team end */
-
-
-
-
-
-
+ 
 
 /* Footer start */
 .footer{

@@ -1,13 +1,316 @@
+@media all and (max-width: 1400px){
+    .banner .banner_left .banner_title { 
+        font-size: 55px; 
+        line-height: 72px; 
+    }
+    .banner .banner_right img { 
+        width: 74%;
+    }
+}
+@media all and (max-width: 1200px){
+    .search_Cart_Login .login_registration { 
+        font-size: 14px; 
+        height: 45px; 
+        padding: 0 16px;
+    }
+    /* banner start */
+    .banner .banner_left .banner_title {
+        font-size: 46px;
+        line-height: 65px;
+        margin-bottom: 40px;
+    }
+    .banner .banner_right img {
+        position: absolute;
+        top: -25%;
+        left: 7%;
+        z-index: -1;
+        width: 90%;
+    }
+    .banner {
+        padding: 140px 0 120px;
+    }
+    /* banner end */
+}
+
+
+
 @media all and (max-width: 992px){
     .section_title .title { 
-        font-size: 45px; 
+        font-size: 40px; 
     }
     .about_details .section_title .title { 
         text-align: center;
     }
+
+    /* banner start */
+    .banner .banner_right img {
+        position: absolute;
+        top: -7%;
+        left: 18%;
+        z-index: -1;
+        width: 68%;
+    }
+    .banner .banner_left .banner_title {
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 25px;
+    }
+    .banner .banner_left .all_course_btn { 
+        line-height: 55px; 
+        min-width: 210px; 
+    }
+    .banner .banner_left {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .banner .banner_right { 
+        margin-bottom: 50px;
+    }
+    .banner {
+        padding: 70px 0 120px;
+    }
+    /* banner end */
+
+    /* popular course start */
+    .courses .single_course { 
+        margin-bottom: 22px;
+        margin-left: 0px;
+        margin-right: 0px; 
+    }
+    /* popular course end */
+
+    /* our course start */
+    .our_courses .all_courses .single_course {
+        background: #ffffff;
+        border-radius: 16px; 
+        margin-bottom: 22px;
+        margin-left: 0px;
+        margin-right: 0px; 
+    }
+    /* our course end */
+    /* slider control start */
+    .testimonial_title {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .slider_controlar {
+        display: flex;
+        justify-content: center;
+    }
+    /* slider control end */
+
+    /* about page start */
+    .about_content {
+        padding: 15px 0;
+    }
+    .about_content .about_image {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about_content .about_description .sub_title { 
+        font-size: 18px;
+        line-height: 108%; 
+        margin-bottom: 10px;
+    }
+    .about_content .about_description .title { 
+        font-size: 25px;
+        line-height: 115%; 
+        margin-bottom: 15px;
+    }
+    .about_content .about_description p {  
+        font-size: 15px;
+        line-height: 165%;
+    }
+    .about_content .about_description .features ul li span { 
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 170%;
+        padding: 10px 20px;
+        background: #ffffff;
+        border-radius: 34px; 
+        margin: 6px 6px 6px 0px; 
+    }
+    .about_content .about_description .viewMore { 
+        margin-top: 10px;
+    }
+    /* about page end */
+
+    /* contact page start*/
+    .contact_area .form_area { 
+        padding: 25px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .contact_area .contract_info { 
+        text-align: center;
+        margin-left: 0px;
+    }
+    .contact_area .contract_info .info_item .item_icon { 
+        margin: 30px auto 21px;
+    }
+    .contact_area .form_area .title { 
+        font-size: 18px;
+        line-height: 115%; 
+    }
+    .contact_area .form_area p { 
+        font-size: 14px;
+        line-height: 135%;
+        margin: 0;
+    }
+    .contact_area .form_area form input, .contact_area .form_area form textarea { 
+        padding: 15px 0; 
+        font-size: 14px; 
+    }
+    .contact_area .form_area form button { 
+        font-size: 15px; 
+        padding: 9px 25px; 
+    }
+    /* contact page end*/
+
+    /* cart page start */
+    .cart_area .cart_details { 
+        margin-bottom: 20px;
+    }
+    /* cart page end */
+
 }
+
+
 @media all and (max-width: 767px){
     .section_title .title { 
         font-size: 35px; 
     } 
+    /* banner start */
+    .banner {
+        padding: 60px 0 60px;
+    }
+    /* banner end */
+
+    /* slider controler start */
+    .slider_controlar .prev {
+        width: 45px;
+        height: 45px; 
+        margin: 0 5px; 
+    }
+    .slider_controlar .next {
+        width: 45px;
+        height: 45px; 
+    }
+    .testimonial .testimonial_container .testimonial_item .item_wraper {
+        border: 1px solid #EFECF4;
+        margin: 0px 10px;
+        padding: 20px 15px 15px;
+    }
+    /* slider controler end */
+
+}
+
+
+@media all and (max-width: 576px){
+    /* banner start */
+    .banner .banner_left .banner_title {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 21px;
+    } 
+    .banner {
+        padding: 50px 0 50px;
+    }
+    /* banner end */
+
+    /* professional trainer start */
+    .professional_title {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* professional trainer end */
+
+    .course_list .course_list_title {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .course_list .course_list_title form input { 
+        padding: 7px 16px; 
+        line-height: 22px;
+        min-width: 260px;
+    }
+
+    /* faq area start */
+    .faq_area .accordion-button:not(.collapsed) { 
+        font-size: 14px; 
+    }
+    .faq_area .accordion-body { 
+        font-size: 13px;
+        line-height: 168%; 
+        padding-top: 0;
+    }
+    .faq_area .accordion-button { 
+        font-size: 13px;
+        line-height: 120%; 
+    }
+    /* faq area end */
+}
+
+
+@media all and (max-width: 400px){
+    /* banner start */
+    .banner .banner_left .banner_title {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 13px;
+    }
+    .banner .banner_left .all_course_btn {
+        line-height: 50px;
+        min-width: 190px;
+    }
+    .banner {
+        padding: 20px 0 20px;
+    }
+    .banner .banner_right {
+        margin-bottom: 0px;
+    }
+    .banner .banner_right img {
+        position: absolute;
+        top: -2%;
+        left: 8%;
+        z-index: -1;
+        width: 85%;
+    }
+    /* banner end */
+
+    /* section title */
+    .section_title .title {
+        font-size: 25px;
+    }
+    /* course start */
+    .courses {
+        margin-top: 30px;
+    }
+    .courses .single_course { 
+        margin-bottom: 20px; 
+    }
+    .courses .single_course .course_description .course_name { 
+        font-size: 16px; 
+    }
+    .courses .single_course .course_description .price_and_viewMore .price { 
+        font-size: 16px; 
+    }
+    /* course end */
+
+    /* our course start */
+    .our_courses .all_courses .single_course .course_description .course_name { 
+        font-size: 20px; 
+    }
+    .our_courses .all_courses .single_course .course_description .course_detail p { 
+        line-height: 140%;
+    }
+    .our_courses .all_courses .single_course { 
+        padding: 20px 20px; 
+    }
+    /* our course end */
+
 }
