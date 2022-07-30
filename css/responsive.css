@@ -30,6 +30,15 @@
         padding: 140px 0 120px;
     }
     /* banner end */
+
+    /* course details start */
+    .course_details .course_details_wrapper .course_menu { 
+        display: block; 
+    }
+    .dashboard_wrapper { 
+        padding: 10px 0 20px;
+    }
+    /* course details end */
 }
 
 
@@ -174,6 +183,53 @@
     }
     /* cart page end */
 
+    /*about trainer page start */
+    .about_trainer .trainer_description .trainer_name {  
+        font-size: 18px;
+        line-height: 110%;
+        margin: 10px 0 10px;
+    }
+    .single_trainer .trainer_description {
+        padding: 15px 15px;
+    }
+    /*about trainer page end */
+
+    /* course details start */
+    .course_details .course_intro {
+        margin-bottom: 30px;
+    }
+    /* course details end */
+
+    /* dashboard start */
+    .dashboard_wrapper .sidber_menu ul { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dashboard_wrapper .sidber_menu ul li {
+        color: #2C2C31;
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        background: #ffffff;
+        border-radius: 5px; 
+        padding: 12px 0;
+        cursor: pointer;
+        flex-basis: 48%;
+        margin: 1%;
+    }
+    /* dashboard end */
+
+    /* professional trainer */ 
+    .single_trainer .trainer_description .trainer_name { 
+        font-size: 18px;
+        line-height: 110%;
+    }
+    .single_trainer .trainer_description .trainer_education { 
+        font-size: 12px;
+        line-height: 150%;
+    }
 }
 
 
@@ -203,6 +259,31 @@
         padding: 20px 15px 15px;
     }
     /* slider controler end */
+
+    /* cart page start */
+    .cart_area .course_image { 
+        width: 50%;
+        margin: 0 auto 15px;
+    }
+    /* cart page end */
+
+    /* about trainer start */
+    .about_trainer .single_trainer { 
+        margin-bottom: 20px;
+    }
+    .about_trainer .trainer_details {
+        text-align: center;
+    }
+    /* about trainer end */
+
+    /* course details start */
+    .course_details .course_details_wrapper .course_menu ul li { 
+        font-size: 14px;
+        line-height: 20px; 
+        padding: 10px 3px; 
+        margin-left: 10px; 
+    }
+    /* course details end */
 
 }
 
@@ -239,6 +320,15 @@
         min-width: 260px;
     }
 
+    /* contact start */
+    .contact_area .contract_info .info_item .info_title { 
+        font-size: 18px; 
+    }
+    .contact_area .contract_info .info_item .info_description { 
+        font-size: 14px;
+        line-height: 110%; 
+    }
+    /* contact end */
     /* faq area start */
     .faq_area .accordion-button:not(.collapsed) { 
         font-size: 14px; 
@@ -253,9 +343,118 @@
         line-height: 120%; 
     }
     /* faq area end */
+    /* cart page start */
+    .cart_area .cart_wraps .cart_table table thead th { 
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .cart_area .cart_wraps .cart_table table tbody { 
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .cart_area .cart_wraps .coupon_cart form input { 
+        font-size: 14px;
+        line-height: 126%;
+        padding: 8px;
+        margin-right: 3px;
+    }
+    .cart_area .cart_wraps .coupon_cart form button { 
+        padding: 8px 0px; 
+        font-size: 14px;
+        line-height: 120%; 
+        width: 160px;
+        margin-left: 3px;
+    }
+    .cart_area .cart_wraps .coupon_cart {
+        margin-top: 15px;
+    }
+    .cart_area .cart_details { 
+        padding: 20px;
+    }
+    .cart_area .total_amount .cart-totals .cart_title {  
+        font-size: 16px;
+        line-height: 110%;
+        padding: 20px 20px 5px 20px;
+    }
+    .cart-totals ul li { 
+        font-weight: 500 !important;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .cart_area .total_amount .cart-totals .Cart_btn { 
+        font-size: 14px;
+        line-height: 20px; 
+        padding: 10px 25px; 
+    }
+    .cart_area {
+        margin-top: 15px;
+    }
+    .cart_section { 
+        padding: 25px 0 30px; 
+    }
+    /* cart page end */
+
+    /* about trainer start */
+    .about_trainer { 
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    /* about trainer end */
+
+    /* course details start */
+    .course_details .course_details_wrapper .course_menu ul { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .course_details .course_details_wrapper .course_menu ul li { 
+        font-size: 14px;
+        line-height: 25px;
+        padding: 12px 3px;
+        width: 46%;
+        margin: 5px 2%;
+    } 
+    .course_details { 
+        padding: 25px 0;
+    }
+    .course_details .course_details_wrapper .course_menu { 
+        margin: 20px 0;
+    }
+    /* course details end */
+
+    /* dashbard start */
+    .dashboard_wrapper .sidber_menu ul li { 
+        font-size: 14px; 
+        text-align: center;
+    }
+    .dashboard_wrapper .sidber_menu ul li i { 
+        margin: 0 12px;
+    }
+    /* dashbard end */
+
+    .professional_trainer {
+        padding: 25px 0 0;
+    }
+    .pagination .previous-page {
+        width: 50px;
+        height: 50px; 
+    }
+    .pagination .next-page {
+        width: 50px;
+        height: 50px; 
+    }
 }
 
 
+
+
+@media all and (max-width: 500px){
+    /* cart page start */
+    .cart_area .cart_wraps .cart_table table tbody .product_name a { 
+        white-space: nowrap;
+    }
+    /* cart page end */
+}
 @media all and (max-width: 400px){
     /* banner start */
     .banner .banner_left .banner_title {
@@ -312,5 +511,12 @@
         padding: 20px 20px; 
     }
     /* our course end */
+
+    .dashboard_wrapper .sidber_menu ul li i {
+        margin: 0 5px;
+    }
+    .dashboard_wrapper .user_name p { 
+        font-size: 16px; 
+    }
 
 }
